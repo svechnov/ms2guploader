@@ -1,0 +1,18 @@
+#ms2guploader{position:relative}
+#ms2gu-files-container,#ms2gu-files-progress{display:none}
+#ms2guploader .gr-2{width:16.66666667%;padding:0 10px;margin:0 0 20px}
+#ms2guploader .ms2gu-file{display:inline-block;float:left;position:relative}
+#ms2guploader .ms2gu-file.ui-sortable-placeholder:after{content:"";height:116px;width:100%;display:block;border:2px dashed #0E79DA;visibility:visible!important}
+#ms2guploader .ms2gu-file .ms2gu-file-delete{opacity:0;pointer-events:none;position:absolute;background:#1B1C1F;height:24px;width:24px;text-align:center;line-height:25px;border-radius:100%;top:-13px;right:-2px}
+#ms2guploader .ms2gu-file:hover .ms2gu-file-delete{opacity:1;pointer-events:auto}
+#ms2guploader #ms2gu-files-select{display:table;width:100%;border:2px dashed;color:#898e91;line-height:14px;text-decoration:none}
+#ms2guploader #ms2gu-files-select:hover,#ms2gu-files-list.dragover #ms2gu-files-select{color:#0E79DA;background:rgba(14,121,218,0.07)}
+#ms2guploader #ms2gu-files-select span{display:table-cell;height:116px;vertical-align:middle;text-align:center}
+#ms2guploader #ms2gu-files-select span i{font-size:10px}
+#ms2gu-files-progress{position:absolute;top:5px;left:199px}
+#ms2gu-files-progress-count{margin:0 20px}
+#ms2gu-files-progress-percent{color:#0E79DA}
+
+.ms2-message-success  {background-color: green !important;}
+.ms2-message-error  {background-color: brown !important;}
+.ms2-message-info  {background-color: black !important;}
